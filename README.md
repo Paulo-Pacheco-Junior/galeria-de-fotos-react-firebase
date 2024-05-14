@@ -2,21 +2,21 @@
 
 Projeto para praticar React e configurar o Firebase como "Back-end" para armazenamento de imagens.
 
-Obs: Para funcionar é necessário ter uma conta no Firebase,
-Criar um Projeto,
-Ativar o Firebase Storage em Armazenamento,
-Pegar os dados de configuração para preencher no .env(renomeie o .env.example para .env).
-Os dados são necessários no firebaseConfig que fica em libs/firebase.ts.
-O firebaseConfig recebe essas informações do .env
-
-const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECTID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
-  appId: process.env.REACT_APP_FIREBASE_APPID
-};
+Obs: Para funcionar é necessário ter uma conta no Firebase,<br>
+Criar um Projeto,<br>
+Ativar o Firebase Storage em Armazenamento,<br>
+Pegar os dados de configuração para preencher no .env(renomeie o .env.example para .env).<br>
+Os dados são necessários no firebaseConfig que fica em libs/firebase.ts.<br>
+O firebaseConfig recebe essas informações do .env<br>
+<br>
+const firebaseConfig = {<br>
+  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,<br>
+  authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,<br>
+  projectId: process.env.REACT_APP_FIREBASE_PROJECTID,<br>
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGEBUCKET,<br>
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,<br>
+  appId: process.env.REACT_APP_FIREBASE_APPID<br>
+};<br><br>
 
 ![firebase1](https://user-images.githubusercontent.com/78752003/181867418-409a4325-f7f5-4943-8d1d-ae837b2a8dfd.jpg)
 
